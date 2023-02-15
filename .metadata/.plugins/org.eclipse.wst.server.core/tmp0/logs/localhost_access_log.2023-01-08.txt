@@ -1,0 +1,7 @@
+127.0.0.1 - - [08/Jan/2023:21:42:14 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [08/Jan/2023:21:42:15 +0530] "GET /servlet_validation/Login.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Jan/2023:21:42:15 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [08/Jan/2023:21:42:25 +0530] "GET /servlet_validation/login?mail=nayana%40gmail.com&pwd=123 HTTP/1.1" 500 1134
+0:0:0:0:0:0:0:1 - - [08/Jan/2023:21:43:58 +0530] "GET /servlet_validation/Login.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Jan/2023:21:44:11 +0530] "GET /servlet_validation/login?mail=manya%40gmail.com&pwd=1234 HTTP/1.1" 500 1134
+0:0:0:0:0:0:0:1 - - [08/Jan/2023:21:50:10 +0530] "GET /servlet_validation/login?mail=nayana%40gmail.com&pwd=1234 HTTP/1.1" 500 1134

@@ -1,0 +1,21 @@
+package mvc_calculator;
+
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class calculator {
+	@RequestMapping("add")
+	public void  AdDition(HttpServletRequest request,HttpServletResponse response) {
+		int num1=Integer.parseInt(request.getParameter("num1"));
+		int num2=Integer.parseInt(request.getParameter("num2"));
+		
+		response.getWriter().print("The addition of"+num1+" and "+num2+" is "+(num1+num2));		
+	}
+	
+
+}

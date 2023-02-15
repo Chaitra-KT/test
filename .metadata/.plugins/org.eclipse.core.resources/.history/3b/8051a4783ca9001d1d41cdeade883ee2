@@ -1,0 +1,17 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1" isELIgnored="false"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+int x=(Integer)request.getAttribute("x"); 
+int y=(Integer)request.getAttribute("y"); 
+%>
+<h1> the result of ${x} and ${y} is ${x/y }</h1>
+<h1>The result of <%=x%> and <%=y %> is <%=x/y %></h1>
+</body>
+</html>

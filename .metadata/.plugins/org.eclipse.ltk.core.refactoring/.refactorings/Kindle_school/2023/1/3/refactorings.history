@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Kindle_school/src/main/webapp/teachersignup.html&apos; to &apos;Teachersignup.html&apos;" description="Rename resource &apos;teachersignup.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/teachersignup.html" name="Teachersignup.html" stamp="1674301186387" updateReferences="true"/>
+</session>

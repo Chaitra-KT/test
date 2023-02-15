@@ -1,0 +1,17 @@
+package spring_mvca;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class Mycontroller {
+	@RequestMapping("bye")
+	public void  bye() {
+	System.out.println("bye");
+	}
+@RequestMapping("hello")
+	public void  hello() {
+	System.out.println("Hello");}
+	
+}
+

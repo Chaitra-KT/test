@@ -1,0 +1,14 @@
+127.0.0.1 - - [26/Jan/2023:17:06:53 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [26/Jan/2023:17:06:54 +0530] "GET /Kindle_school/Login.html HTTP/1.1" 200 560
+0:0:0:0:0:0:0:1 - - [26/Jan/2023:17:06:54 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [26/Jan/2023:17:06:58 +0530] "POST /Kindle_school/login HTTP/1.1" 404 774
+0:0:0:0:0:0:0:1 - - [26/Jan/2023:17:13:09 +0530] "POST /Kindle_school/login HTTP/1.1" 404 774
+0:0:0:0:0:0:0:1 - - [26/Jan/2023:17:13:28 +0530] "GET /Kindle_school/Signup.html HTTP/1.1" 200 454
+0:0:0:0:0:0:0:1 - - [26/Jan/2023:17:13:31 +0530] "POST /Kindle_school/role HTTP/1.1" 500 105058
+0:0:0:0:0:0:0:1 - - [26/Jan/2023:17:14:01 +0530] "POST /Kindle_school/role HTTP/1.1" 500 109299
+127.0.0.1 - - [26/Jan/2023:17:19:30 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [26/Jan/2023:17:19:31 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [26/Jan/2023:17:19:34 +0530] "POST /Kindle_school/login HTTP/1.1" 404 774
+0:0:0:0:0:0:0:1 - - [26/Jan/2023:17:19:43 +0530] "POST /Kindle_school/role HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [26/Jan/2023:17:19:43 +0530] "GET /Kindle_school/Teachersignup.html HTTP/1.1" 200 612
+0:0:0:0:0:0:0:1 - - [26/Jan/2023:17:19:50 +0530] "POST /Kindle_school/teachersignup HTTP/1.1" 500 1379

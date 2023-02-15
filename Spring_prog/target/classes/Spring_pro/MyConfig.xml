@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="car" class="Spring_pro.Car">
+<property name="brand" value="Audi"></property>
+<property name="color" value="Red"></property>
+<property name="price" value="7500000"></property>
+<property name="system" ref="music"></property>
+</bean>
+<bean id="bike" class="Spring_pro.Bike">
+<constructor-arg index="0" value="R15"></constructor-arg>
+<constructor-arg index="1" value="250"></constructor-arg>
+<constructor-arg index="2" value="Matte Black"></constructor-arg>
+<constructor-arg index="3" ref="music"></constructor-arg>
+</bean>
+<bean id="music" name="Spring_pro.JblMusicSystem"></bean>
+</beans>

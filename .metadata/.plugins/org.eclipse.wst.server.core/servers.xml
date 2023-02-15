@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v9.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v9.0 Server at localhost" name="Tomcat v9.0 Server at localhost" runtime-id="Apache Tomcat v9.0" server-type="org.eclipse.jst.server.tomcat.90" server-type-id="org.eclipse.jst.server.tomcat.90" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="8">
+    <list key="modules" value0="servelet_demo::org.eclipse.jst.j2ee.server:servelet_demo::jst.web::2.3" value1="servelet_calculator::org.eclipse.jst.j2ee.server:servelet_calculator::jst.web::2.3" value2="servlet_validation::org.eclipse.jst.j2ee.server:servlet_validation::jst.web::2.3" value3="ser_res::org.eclipse.jst.j2ee.server:ser_res::jst.web::2.3" value4="Kindle_school::org.eclipse.jst.j2ee.server:Kindle_school::jst.web::2.3" value5="Spring_mvca::org.eclipse.jst.j2ee.server:Spring_mvca::jst.web::2.3" value6="mvc_calculator::org.eclipse.jst.j2ee.server:mvc_calculator::jst.web::2.3" value7="mvc_validation::org.eclipse.jst.j2ee.server:mvc_validation::jst.web::2.3"/>
+  </server>
+</servers>

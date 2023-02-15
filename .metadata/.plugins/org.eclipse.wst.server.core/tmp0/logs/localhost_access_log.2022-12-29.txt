@@ -1,0 +1,10 @@
+127.0.0.1 - - [29/Dec/2022:18:36:46 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [29/Dec/2022:18:36:48 +0530] "GET /servlet_validation/validation.html HTTP/1.1" 200 593
+0:0:0:0:0:0:0:1 - - [29/Dec/2022:18:36:49 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [29/Dec/2022:18:38:55 +0530] "GET /servlet_validation/validation.html HTTP/1.1" 200 640
+0:0:0:0:0:0:0:1 - - [29/Dec/2022:18:39:28 +0530] "GET /servlet_validation/validation.html HTTP/1.1" 200 640
+0:0:0:0:0:0:0:1 - - [29/Dec/2022:18:40:44 +0530] "GET /servlet_validation/validation.html HTTP/1.1" 200 646
+0:0:0:0:0:0:0:1 - - [29/Dec/2022:18:40:46 +0530] "GET /servlet_validation/signup?name=&phone=&mail=&pwd= HTTP/1.1" 404 780
+127.0.0.1 - - [29/Dec/2022:18:55:14 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [29/Dec/2022:18:55:14 +0530] "GET /servlet_validation/validation.html HTTP/1.1" 200 658
+0:0:0:0:0:0:0:1 - - [29/Dec/2022:18:55:36 +0530] "GET /servlet_validation/signup?name=CHAITRA+K+T&phone=07483108577&mail=chaitrakt63%40gmail.com&pwd=0854323456789&gender=female&adrs=Badacross+jain+College+opposite%2C+sc+postmatric+girls+hostel+Davanagere+%28d%29%2C+Karnataka%2C+Sc+postmatric+girls+hostel%2C+Sc+postmatric+girls+hostel%2C+Sc+postmatric+girls+hostel%2C+Sc+postmatric+girls+hostel%2C+Sc+postmatric+girls+hostel%0D%0ASc+postmatric+girls+hostel HTTP/1.1" 200 434

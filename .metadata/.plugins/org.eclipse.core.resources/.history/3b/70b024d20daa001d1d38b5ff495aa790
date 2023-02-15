@@ -1,0 +1,32 @@
+package emp.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+import emp.dao.EmployeeDao;
+import emp.dto.Employee;
+
+public class EmployeeController {
+	
+	@Autowired
+	Employee em;
+	@Autowired
+	EmployeeDao dao;
+	
+	
+@RequestMapping("load")
+public ModelAndView loadEmployee() {
+	ModelAndView andView=new ModelAndView("signup.jsp");
+//	Employee em=new Employee();
+	andView.addObject("emp",em);
+	return andView;
+}
+@RequestMapping("signup")
+public ModelAndView saveEmployee(@ModelAttribute Employee emp){
+	dao.signup(emp);
+	ModelAndView andView=new ModelAndView();
+	 return andView;
+}
+}
